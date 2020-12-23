@@ -6,7 +6,8 @@
   "author": "Leonardo Camargo",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/index.ts",
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/index.ts",
+    "start": "node dist/",
     "build": "tsc"
   },
   "devDependencies": {
