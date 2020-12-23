@@ -1,0 +1,16 @@
+{
+  "name": "mistery-friend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:leonardorcamargo/mistery-friend.git",
+  "author": "Leonardo Camargo",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/index.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.1.1",
+    "typescript": "^4.1.3"
+  }
+}
